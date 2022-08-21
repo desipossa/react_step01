@@ -25,7 +25,7 @@ function App() {
           )
         }
       </ul>
-      <input onChange={todo} value={todo.value} />
+      <input onChange={todo} value={input} />
       <button onClick={todoCreate}>OK</button>
     </>
   );
